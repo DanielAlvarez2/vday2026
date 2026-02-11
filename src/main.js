@@ -10,6 +10,37 @@ document.querySelector('#app').innerHTML = `
               height:8.5in';>
     <h1>trio of tapas</h1>
 
+    <div class='item'>
+      <div class='left'>
+        <span class='name'>burrata</span>
+        <span class='allergies'>(d)</span>
+        <span class='description'>
+          peach conserva, balsamic
+        </span><br/>
+
+        <span class='name'>cod fish mousse</span>
+        <span class='allergies'>(gl.d)</span>
+        <span class='description'>
+          puffed pastry
+        </span><br/>
+
+        <span class='name'>jamón Ibérico</span>
+        <span class='allergies'>(gl)</span>
+        <span class='description'>
+          panipuri
+        </span><br/>
+
+        <div class='wine'>
+          Xarel lo, Macabeu, Parellada, Monastrell, <span class='wine-name'>De Nit</span>, 
+          2022, Raventós i Blanc, Conca del Riu Anoia
+        </div>
+      </div>  
+      <div class='right'></div>
+    </div>
+
+
+
+
     <h1>appetizers</h1>
 
     <div class='item'>
@@ -129,12 +160,15 @@ document.querySelector('#app').innerHTML = `
 
     <div class='item'>
       <div class='left'>
-        <span class='name'></span>
-        <span class='allergies'></span>
-        <span class='description'></span>
+        <span class='name'>wagyu bone-in beef short ribs</span>
+        <span class='allergies'>(d)</span>
+        <span class='description'>
+          potato fondant, broccolini, tomatoes, sweet piquillo pepper, 
+          ginger-beer-soy sauce
+        </span>
 
         <div class='wine'>
-          <span class='wine-name'></span>
+          Garnatxa, Merlot, Syrah, <span class='wine-name'>Ceps Nous</span>, 2016, Pasanau, Priorat
         </div>
       </div>  
       <div class='right'></div>
@@ -142,12 +176,32 @@ document.querySelector('#app').innerHTML = `
 
     <div class='item'>
       <div class='left'>
-        <span class='name'></span>
-        <span class='allergies'></span>
-        <span class='description'></span>
+        <span class='name'>duck confit</span>
+        <span class='allergies'>(d.gl)</span>
+        <span class='description'>
+          creamy farro, sweet potato, artichokes, mushrooms, lavender-citrus gastrique
+        </span>
 
         <div class='wine'>
-          <span class='wine-name'></span>
+          Tempranillo, <span class='wine-name'>Portia</span>, Crianza, 2016, Ribera del Duero
+        </div>
+      </div>  
+      <div class='right'></div>
+    </div>
+
+<h1>desserts</h1>
+
+    <div class='item'>
+      <div class='left'>
+        <span class='name'>chocolate temptation</span>
+        <span class='allergies'>(d.gl.n)</span>
+        <span class='description'>
+          hazelnut sablé, vanilla-almond sponge cake, hazelnut crémeux, cinnamon 
+          nougatine, chocolate profiterole
+        </span>
+
+        <div class='wine'>
+          Furmint, field blend, <span class='wine-name'>Oremus</span>, 2018, 3 Puttonyos, Tempos Vega Sicilia, Tokaji Aszú
         </div>
       </div>  
       <div class='right'></div>
@@ -155,12 +209,15 @@ document.querySelector('#app').innerHTML = `
 
     <div class='item'>
       <div class='left'>
-        <span class='name'></span>
-        <span class='allergies'></span>
-        <span class='description'></span>
+        <span class='name'>sweet rose</span>
+        <span class='allergies'>(d.gl.n)</span>
+        <span class='description'>
+          white chocolate mousse, hazelnut brittle, berries compote, 
+          olive oil-poppy seed sponge cake, almond streusel, rose cloud
+        </span>
 
         <div class='wine'>
-          <span class='wine-name'></span>
+          Field Blend, <span class='wine-name'>10 Years Tawny Port</span>, Noval
         </div>
       </div>  
       <div class='right'></div>
@@ -168,12 +225,15 @@ document.querySelector('#app').innerHTML = `
 
     <div class='item'>
       <div class='left'>
-        <span class='name'></span>
-        <span class='allergies'></span>
-        <span class='description'></span>
+        <span class='name'>Carribean</span>
+        <span class='allergies'>(vegan)</span>
+        <span class='description'>
+          pineapple rum flambé, virgin piña colada ice cream, 
+          pineapple-lime sponge cake, bittersweet chocolate
+        </span>
 
         <div class='wine'>
-          <span class='wine-name'></span>
+          Moscatel, Jorge Ordoñez, <span class='wine-name'>Selección Especial</span>, 2022, Málaga
         </div>
       </div>  
       <div class='right'></div>
