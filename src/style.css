@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.item{
+  display:flex;
+  margin-top:15px;
+}
+.name{
+  font-weight: 900;
+}
+.allergies{
+  font-weight:900;
+  font-family: serif;
+  font-style: italic;
+}
+.desription{
+  font-weight: 100;
+}
+.wine{
+  margin-top:5px;
+  font-family: serif;
+}
+.wine-name{
+  font-weight: 900;
+  font-family: serif;
+}
+.left{
+  width:4in;
+}
