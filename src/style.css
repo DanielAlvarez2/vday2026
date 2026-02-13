@@ -6,13 +6,16 @@
 }
 .item{
   display:flex;
-  margin-top:15px;
+  /* padding:5px; */
+  border:1px solid black;
+  font-size: 19px;
 }
 .name{
   font-weight: 900;
 }
 .allergies{
   font-weight:900;
+  color:red;
   font-family: serif;
   font-style: italic;
 }
@@ -28,5 +31,13 @@
   font-family: serif;
 }
 .left{
-  width:4in;
+  /* width:4in; */
+}
+.right{
+  display: none;
+  color:red;
+}
+h1{
+  font-size: 25px;
+  padding-left: 5px;
 }
